@@ -21,10 +21,12 @@ function render() {
 
     const doneBtn = document.createElement('button');
     doneBtn.textContent = task.done ? 'Undo' : 'Complete';
+    doneBtn.className = 'complete-btn';
     doneBtn.onclick = () => { tasks[index].done = !tasks[index].done; render(); };
 
     const delBtn = document.createElement('button');
     delBtn.textContent = 'Delete';
+    delBtn.className = 'delete-btn';
     delBtn.onclick = () => { tasks.splice(index, 1); render(); };
 
     card.append(title, desc, doneBtn, delBtn);
