@@ -100,11 +100,11 @@ Student-Task-Manager/
 
 **Figure 35: Final GitHub Repository**
 
-![Final GitHub Repository](screenshots/screenshot-35-final-repo.png)
+![Final GitHub Repository](Screenshots/screenshots-screenshot-35-final-repo.png)
 
 **Figure 36: Team Contributions**
 
-![Team Contributions](screenshots/screenshot-36-team-contributions.png)
+![Team Contributions](Screenshots/screenshots-screenshot-36-team-contributions.png)
 
 ## Version History
 
